@@ -20,7 +20,12 @@ namespace API_GER_PRODUTO
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
+					
+					
                     webBuilder.UseStartup<Startup>();
-                });
+                
+				
+				
+				});
     }
 }
